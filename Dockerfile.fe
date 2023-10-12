@@ -1,0 +1,20 @@
+# Используйте официальный образ Node.js
+FROM node:16
+
+# Установите рабочую директорию
+WORKDIR /app
+
+# Копируйте файлы package.json и package-lock.json
+COPY front/package*.json ./
+
+# Установите зависимости
+RUN npm install --force
+
+# Копируйте все файлы проекта
+COPY front/ ./
+
+# Соберите приложение
+RUN npm run build
+
+# Запустите приложение
+CMD ["npm", "start"]

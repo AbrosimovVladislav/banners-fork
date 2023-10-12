@@ -1,0 +1,9 @@
+-- Stats
+
+TestStatistic[positiveCases=1, errorCases=0]
+
+-- Test results
+
+Response: BannersGenerationDto(prompt=(masterpiece, 8K, UHD, best quality:1.3), battle-hardened mercenary, (leather armor:1.2), fierce expression, (powerful assault rifle:1.1), post-apocalyptic cityscape, shattered buildings, smoky haze, (fiery sunset:1.2), intense, action-packed, pulsating danger, cold wind, ominous shadows, dynamic angle, looking at viewer, mid-sprint, images=[https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/0-59ce25a3-d740-43f3-a0f5-1128fef79f0b.png, https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/1-59ce25a3-d740-43f3-a0f5-1128fef79f0b.png, https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/2-59ce25a3-d740-43f3-a0f5-1128fef79f0b.png, https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/3-59ce25a3-d740-43f3-a0f5-1128fef79f0b.png])
+Status: Success
+--------------------

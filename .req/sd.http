@@ -1,0 +1,66 @@
+### v3
+POST https://stablediffusionapi.com/api/v3/text2img
+Content-Type: application/json
+
+{
+  "key": "",
+  "prompt": "(masterpiece, best-quality, UHD, official art:1.2), Dynamic online ecosystem aimed for advertising, (integrated tools for marketing:1.4), handling paperwork, (symbolized by interconnected gears:1.2), deep blue background, (active digital links:1.1), 3D mesh network, glowing nodes, cool colors, vivid, conceptual representation of data flow. Two immersive screens to represent reports and charts, modern design, overlapping visuals, staying in realism",
+  "negative_prompt": "(child:1.5), ((((underage)))), ((((child)))), (((kid))), (((preteen))), (teen:1.5) ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, extra limbs, disfigured, deformed, body out of frame, bad anatomy, watermark, signature, cut off, low contrast, underexposed, overexposed, bad art, beginner, amateur, distorted face, blurry, draft, grainy, bad anatomy, ugly representations, badly drawn elements, broken arms, mutations, mutilations, deformations, unexpected finger\\\/limb counts, endorse hate speech, bullying, harassment, violate copyrights, trademarks, none clear, low-quality images, lowres, bad anatomy, bad hands, cropped, worst quality, ugly, deform, disfigured",
+  "width": "512",
+  "height": "512",
+  "samples": "4",
+  "num_inference_steps": "20",
+  "safety_checker": "no",
+  "enhance_prompt": "yes",
+  "seed": null,
+  "guidance_scale": 7.5,
+  "multi_lingual": "no",
+  "panorama": "no",
+  "self_attention": "no",
+  "upscale": "no",
+  "embeddings_model": null,
+  "webhook": null,
+  "track_id": null
+}
+
+### v4
+POST https://stablediffusionapi.com/api/v4/dreambooth
+Content-Type: application/json
+
+{
+  "key": "",
+  "prompt": "(masterpiece, best-quality, UHD, official art:1.2), Dynamic online ecosystem aimed for advertising, (integrated tools for marketing:1.4), handling paperwork, (symbolized by interconnected gears:1.2), deep blue background, (active digital links:1.1), 3D mesh network, glowing nodes, cool colors, vivid, conceptual representation of data flow. Two immersive screens to represent reports and charts, modern design, overlapping visuals, staying in realism",
+  "negative_prompt": "(child:1.5), ((((underage)))), ((((child)))), (((kid))), (((preteen))), (teen:1.5) ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, extra limbs, disfigured, deformed, body out of frame, bad anatomy, watermark, signature, cut off, low contrast, underexposed, overexposed, bad art, beginner, amateur, distorted face, blurry, draft, grainy, bad anatomy, ugly representations, badly drawn elements, broken arms, mutations, mutilations, deformations, unexpected finger\\\/limb counts, endorse hate speech, bullying, harassment, violate copyrights, trademarks, none clear, low-quality images, lowres, bad anatomy, bad hands, cropped, worst quality, ugly, deform, disfigured",
+  "model_id": "epicrealismnaturalsi",
+  "width": "512",
+  "height": "512",
+  "samples": "4",
+  "num_inference_steps": "20",
+  "safety_checker": "no",
+  "enhance_prompt": "yes",
+  "seed": null,
+  "guidance_scale": 7.5,
+  "multi_lingual": "no",
+  "panorama": "no",
+  "self_attention": "yes",
+  "upscale": "no",
+  "embeddings_model": null,
+  "lora_model": null,
+  "lora_strength": null,
+  "scheduler": "UniPCMultistepScheduler",
+  "webhook": null,
+  "track_id": null,
+  "clip_skip": "2",
+  "base64": "no",
+  "temp": "yes"
+}
+
+
+### v4
+POST https://stablediffusionapi.com/api/v4/dreambooth/fetch
+Content-Type: application/json
+
+{
+  "key": "",
+  "request_id": "45160278"
+}

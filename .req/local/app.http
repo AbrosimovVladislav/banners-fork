@@ -1,0 +1,15 @@
+### GET Generate banners
+POST http://localhost:8080/api/v1/banners-by-url/
+Content-Type: application/json
+
+{
+  "url": "https://uralzpo.ru/",
+  "mood": "Casual",
+  "aspectRatio": "20:9"
+}
+
+### Get download image
+GET http://localhost:8080/api/v1/image?imageUrl=https://cdn2.stablediffusionapi.com/generations/bf474fa7-a314-4696-ada3-590be3d3e2ba-0.png
+
+### Get download image
+GET http://localhost:8080/api/v1/image/zip?imageUrls=https://cdn2.stablediffusionapi.com/generations/bf474fa7-a314-4696-ada3-590be3d3e2ba-0.png,https://cdn2.stablediffusionapi.com/generations/bf474fa7-a314-4696-ada3-590be3d3e2ba-0.png

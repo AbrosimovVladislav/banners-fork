@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://www.escapefromtarkov.com/",
+    "sdModel": "realistic-vision-v51",
+    "styleDescription": "Animation style, Animated sequences, often colorful and lively",
+    "aspectRatio": "512:512"
+  },
+  {
+    "url": "https://cleanhunter-sochi.ru/",
+    "sdModel": "sdvn5-3dcutewave",
+    "styleDescription": "Animation style, Animated sequences, often colorful and lively",
+    "aspectRatio": "512:512"
+  },
+  {
+    "url": "https://cleanhunter-sochi.ru/",
+    "sdModel": "zovya111",
+    "styleDescription": "Animation style, Animated sequences, often colorful and lively",
+    "aspectRatio": "512:512"
+  }
+]

@@ -1,0 +1,9 @@
+### GET request with a header
+POST https://ai-banners-generator-5umocyutjq-lz.a.run.app/api/v1/banners-by-url/
+Content-Type: application/json
+
+{
+  "url": "https://cmproject.ru/",
+  "mood": "Casual",
+  "aspectRatio": "20:9"
+}

@@ -1,0 +1,39 @@
+-- Stats
+
+TestStatistic[positiveCases=3, errorCases=0]
+
+-- Test results
+
+Response: BannersGenerationDto(concept="I gathered information about the company I'm interested in from its website.
+The information is extracted in raw form, meaning everything is in sequence.
+
+  Escape from Tarkov official page - Escape from TarkovEscape from Tarkov is a hardcore and realistic online first-person action RPG/Simulator with MMO features and a story-driven walkthrough.With each passing day the situation in the Norvinsk region grows more and more complicated. Incessant warfare in Tarkov has sparked massive panic; the local population has fled the city, but those who stayed are looking to improve their fortunes at the expense of others. Having accepted the new reality, savage Tarkov locals - "Scavs" flocked into well-armed gangs and started the redivision of the city. Nowadays, Tarkov is separated by unseen borders, controlled by different groups. Gain-greedy gunmen would go to any length to have their way, including the murder of civilians and direct confrontation with the two private military companies.The players will have to experience living in the skin of one of the mercenaries who survived the initial stage of the Tarkov conflict. After choosing one of the s
+
+Please analyze this information, and create a concept.
+Concept is short information about main service of this company in 20 words in English.
+Please exclude any info about city or region"
+, prompt=(masterpiece, UHD, photo-realistic:1.2), dedicated mercenary, heavily armed (assault rifle:1.3), battle-worn fatigue clothing, tense eyes, amidst urban warfare, dilapidated buildings, (smoke and fire:1.2) rumble of distant gunfire, piles of rubble, fallen city, glint of sunset against broken glass, warm colors, somber atmosphere, (abandoned vehicles:1.1), graffities on wall, tense, survival, diagonal shot, looking determined, images=[https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/0-37d3e7ee-3aaf-451e-84de-94a3ecd1e254.png, https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/1-37d3e7ee-3aaf-451e-84de-94a3ecd1e254.png, https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/2-37d3e7ee-3aaf-451e-84de-94a3ecd1e254.png, https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/3-37d3e7ee-3aaf-451e-84de-94a3ecd1e254.png])
+Status: Success
+--------------------
+Response: BannersGenerationDto(concept="I gathered information about the company I'm interested in from its website.
+The information is extracted in raw form, meaning everything is in sequence.
+
+  ÐÐ»Ð¸Ð½Ð¸Ð½Ð³Ð¾Ð²Ð°Ñ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ñ Clean HunterÐÐ»Ð¸Ð½Ð¸Ð½Ð³Ð¾Ð²Ð°Ñ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ñ Clean Hunter
+
+Please analyze this information, and create a concept.
+Concept is short information about main service of this company in 20 words in English.
+Please exclude any info about city or region"
+, prompt=(masterpiece, UHD, photorealistic:1.3), (team of professional cleaners:1.2) equipped with modern cleaning tools, busy in a spacious room, large glass windows, gleaming floors, immaculate surfaces, (clean fresh environment:1.2), assorted cleaning products, vibrant, detailed textures, cool colors, light reflecting off surfaces, neatly arranged furniture, busy yet cheerful atmosphere, images=[https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/0-2540de82-9c9a-4bad-b60d-2cfeb7e1694b.png, https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/1-2540de82-9c9a-4bad-b60d-2cfeb7e1694b.png, https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/2-2540de82-9c9a-4bad-b60d-2cfeb7e1694b.png, https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/3-2540de82-9c9a-4bad-b60d-2cfeb7e1694b.png])
+Status: Success
+--------------------
+Response: BannersGenerationDto(concept="I gathered information about the company I'm interested in from its website.
+The information is extracted in raw form, meaning everything is in sequence.
+
+  ÐÐ»Ð¸Ð½Ð¸Ð½Ð³Ð¾Ð²Ð°Ñ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ñ Clean HunterÐÐ»Ð¸Ð½Ð¸Ð½Ð³Ð¾Ð²Ð°Ñ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ñ Clean Hunter
+
+Please analyze this information, and create a concept.
+Concept is short information about main service of this company in 20 words in English.
+Please exclude any info about city or region"
+, prompt=(Masterpiece, Ultra high res, Photorealistic:1.3), Indoor scene, apartment setting, freshly mopped tile floors, gleaming surfaces, spotless (white couch:1.2) with no stains, cleaned kitchen, sparkling countertop, utensils neatly arranged, dining table polished to shine, sunlight streaming through clean windows, (vibrant indoor plants: 1.1) with trimmed leaves, spotless carpet vacuumed, light scent of cleaning solution in air, warm colors, emphasis on the clean and refreshed environment, images=[https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/0-47daacf6-3e7b-4416-b2ec-1fa7573d90c6.png, https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/1-47daacf6-3e7b-4416-b2ec-1fa7573d90c6.png, https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/2-47daacf6-3e7b-4416-b2ec-1fa7573d90c6.png, https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/temp/3-47daacf6-3e7b-4416-b2ec-1fa7573d90c6.png])
+Status: Success
+--------------------

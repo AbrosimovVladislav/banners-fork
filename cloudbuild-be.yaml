@@ -1,0 +1,25 @@
+steps:
+  # Use a base Java 17 image and install Maven
+  - name: 'openjdk:17-jdk-alpine'
+    entrypoint: 'sh'
+    args:
+      - '-c'
+      - |
+        apk update && apk add maven
+        mvn clean package -f back/pom.xml
+
+  # Build the Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/ai-banners-generator/ai-banners-generator', '-f', 'Dockerfile.be', '.']
+
+  # Push the Docker image to GCR
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/ai-banners-generator/ai-banners-generator']
+
+  # Deploy to Cloud Run
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['run', 'deploy', 'ai-banners-generator',
+           '--project', 'ai-banners-generator',
+           '--image', 'gcr.io/ai-banners-generator/ai-banners-generator',
+           '--platform', 'managed',
+           '--region', 'europe-north1']

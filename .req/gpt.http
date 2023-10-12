@@ -1,0 +1,24 @@
+###
+POST https://api.openai.com/v1/chat/completions
+Authorization: Bearer ***
+Content-Type: application/json
+
+{
+  "model": "gpt-4",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant that uses the WebPilot ChatGPT plugin to fetch and summarize web content. With WebPilot you are scrapping data from websites, and gives detailed information"
+    },
+    {
+      "role": "user",
+      "content": "Get info about the company which is website https://cgnl.ru/ . Describe it in 20 words with details"
+    }
+  ],
+  "temperature": 1,
+  "max_tokens": 256,
+  "top_p": 1,
+  "frequency_penalty": 0,
+  "presence_penalty": 0
+}
+
